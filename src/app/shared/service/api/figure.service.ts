@@ -6,7 +6,7 @@ import { FigurePosition } from '../../model/figure-position';
 
 // consider move api paths to enviroment file
 
-const API_LOCAL_URI = "https://localhost:44357/api";
+const API_LOCAL_URI = "http://localhost:51115/api";
 
 @Injectable({ providedIn: 'root' })
 export class FigureService {
