@@ -1,0 +1,28 @@
+@import "src/styles.scss";
+
+
+  .field {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #7c4c3e;
+    background-size: cover;
+    border: none;
+    width: 11vw;
+    max-width: 50px;
+    padding-top: 100%;
+  }
+
+.field:hover {
+  -webkit-box-shadow:inset 0px 0px 0px 2px white;
+  -moz-box-shadow:inset 0px 0px 0px 2px white;
+  box-shadow:inset 0px 0px 0px 2px white;
+}
+
+.black {
+  background-color: #512a2a;
+}
+
+.highlight {
+  background-color:#d2b48c;
+}

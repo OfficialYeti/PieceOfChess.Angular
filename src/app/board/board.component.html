@@ -1,0 +1,5 @@
+<main class="board" *ngIf="figures">
+    <div *ngFor="let position of positions">
+        <app-field [position]="position" [figures]="figures"></app-field>
+    </div>
+</main>

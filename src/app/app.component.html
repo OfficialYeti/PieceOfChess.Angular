@@ -1,0 +1,11 @@
+<aside *ngIf="connectionRefused">
+  Could not connect to API service. Refresh page to try again...
+</aside>
+<div *ngIf="!connectionRefused" class="container">
+  <div class="row">
+    <app-board [figures]="figures"></app-board>
+  </div>
+  <div class="row">
+    <app-chess-toolbox [figures]="figures"></app-chess-toolbox>
+  </div>
+</div>

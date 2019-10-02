@@ -1,0 +1,9 @@
+<div class="toolbox-container" *ngIf="figures">
+    <ng-container *ngFor="let figure of figures">
+        <button [id]="figure.name" class="btn figure"
+                [ngStyle]="{'background-image': 'url(' + '/assets/figures/w_'+figure.name+'_2x.png' + ')'}"
+                (click)="onChangeSelection($event.target)">
+        </button>
+    </ng-container>
+    <button type="button" (click)="onReset()">Reset</button>
+</div>
